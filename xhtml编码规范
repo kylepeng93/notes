@@ -1,0 +1,7 @@
+xhtml文件的头部必须声明文档类型
+，使用如下形式声明：
+<!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+注意，这里使用了transitional（过渡期的）标签库定义来渲染页面
+
