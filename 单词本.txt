@@ -1,0 +1,10 @@
+implicit隐含的
+contract契约
+term条件
+inherent固有的
+semantics语义学
+shrink缩短
+explicit清楚的
+distinct显著的
+alternative可替代的
+facilitate促进
