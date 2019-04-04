@@ -1,0 +1,3 @@
+1.String objects in Java use the UTF-16 encoding that can't be modified.
+java中的String对象默认是UTF-16的字符集，且无法被改变。
+因此，如果我们想要改变文字内容的字符编码，我们只能先将String转化为byte[]，然后对它进行编码。

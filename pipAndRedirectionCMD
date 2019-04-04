@@ -1,0 +1,13 @@
+This is because whenever we use redirection or piping, the data is sent anonymously. 
+当我们使用管道或者重定向命令时，数据总是匿名的。
+As a result, this mechanism is often used in order to get ancillary data (which may not be required) to not be printed.
+这种机制通常用于获取需要被打印的辅助数据（也可能不是必须的）
+被重定向的流分为2种，一种是标准输出（我们期望的输出），使用数字1表示；另一种是标准错误输出，使用数字2表示。
+We identify the redirection to a stream by placing an & in front of the stream number (otherwise it would redirect to a file called 1).
+我们通过在流数字的前面输入一个&符号来支持流的这种重定向。（将标准输出和标准错误输出全部重定向到一个文件中去。）
+比如：ls -l file1 file2 > errorOutput 2>&1
+
+管道命令：|
+What this operator does is feed the output from the program on the left as input to the program on the right.
+这个命令的作用是将左边命令的执行结果作为参数提供给右边命令作为输入参数。
+

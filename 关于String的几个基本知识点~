@@ -1,0 +1,4 @@
+1.String str = new String("abc")创建了几个对象
+回答：创建了2个对象，分别是abc（保存在常量池），str（通过new关键字保存在堆中）。
+2.String,StringBuffer,StringBuilder有什么比别？
+回答：String不可变，而StringBuffer,StringBuilder是可变的。而且StringBuffer是线程安全的，而StringBuilder不是。
