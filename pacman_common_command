@@ -1,0 +1,60 @@
+// 查询所有的xfce4插件
+pacman -Ssq xfce4-* | grep plugin
+sudo pacman -S xfce4-whiskermenu-plugin \
+xfce4-battery-plugin \
+xfce4-clipman-plugin \
+xfce4-cpufreq-plugin \
+xfce4-cpugraph-plugin \
+xfce4-datetime-plugin \
+xfce4-diskperf-plugin \
+xfce4-eyes-plugin \
+xfce4-fsguard-plugin \
+xfce4-genmon-plugin \
+xfce4-mailwatch-plugin \
+xfce4-mount-plugin \
+xfce4-mpc-plugin \
+xfce4-netload-plugin \
+xfce4-notes-plugin \
+xfce4-pulseaudio-plugin \
+xfce4-sensors-plugin \
+xfce4-smartbookmark-plugin \
+xfce4-systemload-plugin \
+xfce4-time-out-plugin \
+xfce4-timer-plugin \
+xfce4-verve-plugin \
+xfce4-wavelan-plugin \
+xfce4-weather-plugin \
+xfce4-xkb-plugin \
+thunar-archive-plugin \
+thunar-archive-plugin-gtk3 \
+thunar-media-tags-plugin \
+xfce4-indicator-plugin-git
+
+# 安装numix主题
+yay -Ssq numix-* | grep theme
+yay -S xfce-theme-numix-hdpi \
+xfce-theme-numix-hdpi \
+maya-gtk3-theme \
+fcitx5-skin-dark-numix \
+numix-holo-themes \
+numix-themes-darkblue-git \
+numix-utouch-icon-theme \
+numix-cursor-theme \
+numix-themes-archblue \
+numix-bevel-icon-theme \
+numix-square-icon-theme \
+numix-themes-green \
+numix-kde-theme-git \
+numix-gtk-theme \
+numix-cursor-theme-git \
+numix-themes-osx-git \
+numix-circle-arc-icons-git \
+numix-frost-themes \
+numix-gtk-theme-git \
+numix-circle-icon-theme-git \
+numix-icon-theme-git \
+numix-circle-icon-theme-git \
+xfce-theme-numix-reborn、
+
+# 安装网易云音乐 谷歌浏览器 kde上的文件对话框
+yay -S netease-cloud-music google-chrome kdialog
