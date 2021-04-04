@@ -1,0 +1,11 @@
+基础知识：
+1、如何实现equals和hashcode方法。Java默认的equab是怎么实现的，string equals是怎么实现的，对于一个办好两个int字段，如a，b实现一个你认为合理的hashcode（）方法，equal和hashcode的关系
+2、Java的标准集合有哪些，Java集合一般都有一个iterator的方法，那么你认为用它的好处是什么？
+3、Java的高级并发工具有哪些（不要回答wait/notify，synchronized这些低级的），threadlocal有啥用，应用场景是啥
+4、使用spring的好处是什么
+5、在一个web工程中，我要对每个用户添加权限验证，那么怎么实现
+6、spring bean的生命周期接口或注释有哪些
+有@scope，@request，@prototype，@session
+7、列举开元json处理类
+
+
